@@ -2,13 +2,34 @@
 #
 # Get latest from https://github.com/github/gitignore/blob/master/Unity.gitignore
 #
-/[Ll]ibrary/
-/[Tt]emp/
-/[Oo]bj/
-/[Bb]uild/
-/[Bb]uilds/
-/[Ll]ogs/
-/[Mm]emoryCaptures/
+/GameClient/[Ll]ibrary/
+/GameClient/[Tt]emp/
+/GameClient/[Oo]bj/
+/GameClient/[Bb]uild/
+/GameClient/[Bb]uilds/
+/GameClient/[Ll]ogs/
+/GameClient/[Mm]emoryCaptures/
+
+
+
+#SERVER
+# Build results
+/GameServer/GameServer/[Dd]ebug/
+/GameServer/GameServer/[Dd]ebugPublic/
+/GameServer/GameServer/[Rr]elease/
+/GameServer/GameServer/[Rr]eleases/
+/GameServer/GameServer/x64/
+/GameServer/GameServer/x86/
+/GameServer/GameServer/build/
+/GameServer/GameServer/bld/
+/GameServer/GameServer/[Bb]in/
+/GameServer/GameServer/[Oo]bj/
+/GameServer/GameServer/[Oo]ut/
+/GameServer/GameServer/msbuild.log
+/GameServer/GameServer/msbuild.err
+/GameServer/GameServer/msbuild.wrn
+#END SERVER
+
 
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/[Aa]ssets/**/*.meta
@@ -30,7 +51,7 @@ ExportedObj/
 .consulo/
 *.csproj
 *.unityproj
-*.sln
+GameClient/*.sln
 *.suo
 *.tmp
 *.user
