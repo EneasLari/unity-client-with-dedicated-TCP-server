@@ -360,7 +360,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startMenu: {fileID: 600592964}
-  userNameField: {fileID: 2117298127}
+  usernameField: {fileID: 2117298127}
 --- !u!114 &246298216
 MonoBehaviour:
   m_ObjectHideFlags: 0
